@@ -85,7 +85,7 @@ export default function App() {
     const maxPossiblePoints = questions.reduce((prev, curr) => prev + curr.points, 0)
 
     useEffect(function () {
-        fetch('http://localhost:8000/questions')
+        fetch('https://react-quiz-nikk.onrender.com/questions')
             .then((res) => res.json())
             .then(data => dispatch({ type: 'dataReceived', payload: data })).catch(err => dispatch({ type: 'dataFailed' }))
     }, [])
