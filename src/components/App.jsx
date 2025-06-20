@@ -1,7 +1,7 @@
 import { useEffect, useReducer } from 'react'
 import DateCounter from './DateCounter.jsx'
 import Header from './Header.jsx'
-import Main from './main.jsx'
+import Main from './Main_.jsx'
 import Loader from './loader.jsx'
 import Error from './Error.jsx'
 import StartScreen from './StartScreen.jsx'
